@@ -49,6 +49,7 @@ Skin {
 ```
 
 The corresponding mesh consists of three cubes. Each cube is attached to 1 joint.
+The center of each cube is also the offset of the connected joint.
 ```c++
     addCube(QVector3D(0, 0, 0), QVector3D(10, 10, 10), 0);
     addCube(QVector3D(0, 10.1, 0), QVector3D(10, 10, 10), 1);
